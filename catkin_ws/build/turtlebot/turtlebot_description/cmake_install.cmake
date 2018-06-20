@@ -1,8 +1,8 @@
-# Install script for directory: /home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description
+# Install script for directory: /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lorenzo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/RoboND-ServiceBot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description/cmake" TYPE FILE FILES
-    "/home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_descriptionConfig.cmake"
-    "/home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_descriptionConfig-version.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_descriptionConfig.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description/catkin_generated/installspace/turtlebot_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE FILE FILES "/home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description/robots")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description/robots")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description/meshes")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description/test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description/test")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_description" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description/urdf")
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include pick_objects/CMakeFiles/pick_objects_node.dir/depend.make
@@ -58,17 +58,17 @@ include pick_objects/CMakeFiles/pick_objects_node.dir/progress.make
 include pick_objects/CMakeFiles/pick_objects_node.dir/flags.make
 
 pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o: pick_objects/CMakeFiles/pick_objects_node.dir/flags.make
-pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o: /home/lorenzo/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lorenzo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o"
-	cd /home/lorenzo/catkin_ws/build/pick_objects && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o -c /home/lorenzo/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
+pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o: /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/RoboND-ServiceBot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o"
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o -c /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
 
 pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.i"
-	cd /home/lorenzo/catkin_ws/build/pick_objects && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lorenzo/catkin_ws/src/pick_objects/src/pick_objects_node.cpp > CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.i
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects/src/pick_objects_node.cpp > CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.i
 
 pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.s"
-	cd /home/lorenzo/catkin_ws/build/pick_objects && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lorenzo/catkin_ws/src/pick_objects/src/pick_objects_node.cpp -o CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.s
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects/src/pick_objects_node.cpp -o CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.s
 
 pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o.requires:
 
@@ -88,34 +88,34 @@ pick_objects_node_OBJECTS = \
 # External object files for target pick_objects_node
 pick_objects_node_EXTERNAL_OBJECTS =
 
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/build.make
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librostime.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lorenzo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node"
-	cd /home/lorenzo/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pick_objects_node.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/build.make
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/librostime.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/RoboND-ServiceBot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node"
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pick_objects_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-pick_objects/CMakeFiles/pick_objects_node.dir/build: /home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node
+pick_objects/CMakeFiles/pick_objects_node.dir/build: /home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node
 
 .PHONY : pick_objects/CMakeFiles/pick_objects_node.dir/build
 
@@ -124,10 +124,10 @@ pick_objects/CMakeFiles/pick_objects_node.dir/requires: pick_objects/CMakeFiles/
 .PHONY : pick_objects/CMakeFiles/pick_objects_node.dir/requires
 
 pick_objects/CMakeFiles/pick_objects_node.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -P CMakeFiles/pick_objects_node.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -P CMakeFiles/pick_objects_node.dir/cmake_clean.cmake
 .PHONY : pick_objects/CMakeFiles/pick_objects_node.dir/clean
 
 pick_objects/CMakeFiles/pick_objects_node.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/pick_objects /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/pick_objects /home/lorenzo/catkin_ws/build/pick_objects/CMakeFiles/pick_objects_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects/CMakeFiles/pick_objects_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_objects/CMakeFiles/pick_objects_node.dir/depend
 

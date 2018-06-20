@@ -1,8 +1,8 @@
-# Install script for directory: /home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_simulator
+# Install script for directory: /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lorenzo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/RoboND-ServiceBot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_simulator" TYPE FILE FILES "/home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_simulator" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_simulator/package.xml")
 endif()
 

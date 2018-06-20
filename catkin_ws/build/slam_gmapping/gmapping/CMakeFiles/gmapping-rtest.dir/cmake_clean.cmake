@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o"
-  "/home/lorenzo/catkin_ws/devel/lib/gmapping/gmapping-rtest.pdb"
-  "/home/lorenzo/catkin_ws/devel/lib/gmapping/gmapping-rtest"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/gmapping/gmapping-rtest.pdb"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/gmapping/gmapping-rtest"
 )
 
 # Per-language clean rules from dependency scanning.

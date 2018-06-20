@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Utility rule file for actionlib_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/build: actionlib_gen
 .PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 
 pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 
 pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/pick_objects /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/pick_objects /home/lorenzo/catkin_ws/build/pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects /home/workspace/RoboND-ServiceBot/catkin_ws/build/pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build: 
 .PHONY : slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/slam_gmapping/slam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/slam_gmapping/slam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/slam_gmapping/slam_gmapping /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/slam_gmapping/slam_gmapping /home/lorenzo/catkin_ws/build/slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/slam_gmapping/slam_gmapping /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/slam_gmapping/slam_gmapping /home/workspace/RoboND-ServiceBot/catkin_ws/build/slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

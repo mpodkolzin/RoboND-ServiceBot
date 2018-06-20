@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o"
-  "/home/lorenzo/catkin_ws/devel/lib/wall_follower/wall_follower.pdb"
-  "/home/lorenzo/catkin_ws/devel/lib/wall_follower/wall_follower"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/wall_follower/wall_follower.pdb"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/wall_follower/wall_follower"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Utility rule file for _run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
 include turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/progress.make
 
 turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf:
-	cd /home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/lorenzo/catkin_ws/build/test_results/turtlebot_description/gtest-turtlebot_description_test_urdf.xml /home/lorenzo/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf\ --gtest_output=xml:/home/lorenzo/catkin_ws/build/test_results/turtlebot_description/gtest-turtlebot_description_test_urdf.xml
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/workspace/RoboND-ServiceBot/catkin_ws/build/test_results/turtlebot_description/gtest-turtlebot_description_test_urdf.xml /home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/turtlebot_description/turtlebot_description_test_urdf\ --gtest_output=xml:/home/workspace/RoboND-ServiceBot/catkin_ws/build/test_results/turtlebot_description/gtest-turtlebot_description_test_urdf.xml
 
 _run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf: turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf
 _run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf: turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/build.make
@@ -67,10 +67,10 @@ turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtes
 .PHONY : turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/build
 
 turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/cmake_clean.cmake
 .PHONY : turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/clean
 
 turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/turtlebot/turtlebot_description /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description /home/lorenzo/catkin_ws/build/turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_description /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description /home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot/turtlebot_description/CMakeFiles/_run_tests_turtlebot_description_gtest_turtlebot_description_test_urdf.dir/depend
 

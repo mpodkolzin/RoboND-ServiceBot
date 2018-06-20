@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/add_markers_node.dir/src/add_markers_node.cpp.o"
-  "/home/lorenzo/catkin_ws/devel/lib/add_markers/add_markers_node.pdb"
-  "/home/lorenzo/catkin_ws/devel/lib/add_markers/add_markers_node"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/add_markers/add_markers_node.pdb"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/add_markers/add_markers_node"
 )
 
 # Per-language clean rules from dependency scanning.

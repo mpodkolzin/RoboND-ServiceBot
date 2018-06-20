@@ -1,8 +1,8 @@
-# Install script for directory: /home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo
+# Install script for directory: /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lorenzo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/RoboND-ServiceBot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lorenzo/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazebo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo/cmake" TYPE FILE FILES
-    "/home/lorenzo/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazeboConfig.cmake"
-    "/home/lorenzo/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazeboConfig-version.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazeboConfig.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/turtlebot_gazeboConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE FILE FILES "/home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/lorenzo/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/25.turtlebot-gazebo.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_simulator/turtlebot_gazebo/catkin_generated/installspace/25.turtlebot-gazebo.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/maps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/maps")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_gazebo" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_simulator/turtlebot_gazebo/worlds")
 endif()
 

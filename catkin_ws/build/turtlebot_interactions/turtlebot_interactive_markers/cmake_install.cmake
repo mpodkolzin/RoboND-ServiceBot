@@ -1,8 +1,8 @@
-# Install script for directory: /home/lorenzo/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers
+# Install script for directory: /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lorenzo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/RoboND-ServiceBot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lorenzo/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markers.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactive_markers/cmake" TYPE FILE FILES
-    "/home/lorenzo/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markersConfig.cmake"
-    "/home/lorenzo/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markersConfig-version.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markersConfig.cmake"
+    "/home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/catkin_generated/installspace/turtlebot_interactive_markersConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactive_markers" TYPE FILE FILES "/home/lorenzo/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactive_markers" TYPE FILE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot_interactive_markers/turtlebot_marker_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot_interactive_markers" TYPE EXECUTABLE FILES "/home/lorenzo/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot_interactive_markers" TYPE EXECUTABLE FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/turtlebot_interactive_markers/turtlebot_marker_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot_interactive_markers/turtlebot_marker_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot_interactive_markers/turtlebot_marker_server")
     file(RPATH_CHANGE
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactive_markers" TYPE DIRECTORY FILES "/home/lorenzo/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_interactive_markers" TYPE DIRECTORY FILES "/home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers/launch")
 endif()
 

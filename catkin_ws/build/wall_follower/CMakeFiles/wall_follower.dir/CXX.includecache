@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/lorenzo/catkin_ws/src/wall_follower/src/wall_follower.cpp
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower/src/wall_follower.cpp
 ros/ros.h
-/home/lorenzo/catkin_ws/src/wall_follower/src/ros/ros.h
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/lorenzo/catkin_ws/src/wall_follower/src/geometry_msgs/Twist.h
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower/src/geometry_msgs/Twist.h
 sensor_msgs/LaserScan.h
-/home/lorenzo/catkin_ws/src/wall_follower/src/sensor_msgs/LaserScan.h
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower/src/sensor_msgs/LaserScan.h
 tf/transform_listener.h
-/home/lorenzo/catkin_ws/src/wall_follower/src/tf/transform_listener.h
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower/src/tf/transform_listener.h
 iostream
 -
 cmath

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/lorenzo/catkin_ws/src/turtlebot/turtlebot_bringup
-# Build directory: /home/lorenzo/catkin_ws/build/turtlebot/turtlebot_bringup
+# Source directory: /home/workspace/RoboND-ServiceBot/catkin_ws/src/turtlebot/turtlebot_bringup
+# Build directory: /home/workspace/RoboND-ServiceBot/catkin_ws/build/turtlebot/turtlebot_bringup
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

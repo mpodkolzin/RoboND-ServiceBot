@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/lorenzo/catkin_ws/src/add_markers/src/add_markers_node.cpp
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/add_markers/src/add_markers_node.cpp
 ros/ros.h
+-
+visualization_msgs/Marker.h
 -
 nav_msgs/Odometry.h
 -
-visualization_msgs/Marker.h
+cmath
 -
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h

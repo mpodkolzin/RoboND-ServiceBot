@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lorenzo/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
+/home/workspace/RoboND-ServiceBot/catkin_ws/src/pick_objects/src/pick_objects_node.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h

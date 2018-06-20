@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pick_objects_node.dir/src/pick_objects_node.cpp.o"
-  "/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node.pdb"
-  "/home/lorenzo/catkin_ws/devel/lib/pick_objects/pick_objects_node"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node.pdb"
+  "/home/workspace/RoboND-ServiceBot/catkin_ws/devel/lib/pick_objects/pick_objects_node"
 )
 
 # Per-language clean rules from dependency scanning.

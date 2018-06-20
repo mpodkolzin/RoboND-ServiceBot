@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_gener
 .PHONY : wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/wall_follower && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/wall_follower && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/wall_follower /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/wall_follower /home/lorenzo/catkin_ws/build/wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/wall_follower /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/wall_follower /home/workspace/RoboND-ServiceBot/catkin_ws/build/wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wall_follower/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lorenzo/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lorenzo/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND-ServiceBot/catkin_ws/build
 
 # Utility rule file for nav_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build: nav_msgs_gener
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 
 add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean:
-	cd /home/lorenzo/catkin_ws/build/add_markers && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build/add_markers && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 
 add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend:
-	cd /home/lorenzo/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lorenzo/catkin_ws/src /home/lorenzo/catkin_ws/src/add_markers /home/lorenzo/catkin_ws/build /home/lorenzo/catkin_ws/build/add_markers /home/lorenzo/catkin_ws/build/add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND-ServiceBot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND-ServiceBot/catkin_ws/src /home/workspace/RoboND-ServiceBot/catkin_ws/src/add_markers /home/workspace/RoboND-ServiceBot/catkin_ws/build /home/workspace/RoboND-ServiceBot/catkin_ws/build/add_markers /home/workspace/RoboND-ServiceBot/catkin_ws/build/add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend
 
