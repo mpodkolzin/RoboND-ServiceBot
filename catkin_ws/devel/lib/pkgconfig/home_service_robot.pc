@@ -1,0 +1,8 @@
+prefix=/home/lorenzo/catkin_ws/devel
+
+Name: home_service_robot
+Description: Description of home_service_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lorenzo/catkin_ws/devel/lib 
+Requires: 
