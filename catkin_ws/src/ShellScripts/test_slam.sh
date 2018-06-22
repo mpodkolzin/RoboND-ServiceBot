@@ -1,6 +1,6 @@
 #!/bin/sh
 
-xterm -e " roslaunch turtlebot_gazebo turtlebot_world.launch" &
+xterm -e " roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/nvidia/catkin_ws/src/World/MyWorld.world" &
 sleep 5
 xterm -e " rosrun gmapping slam_gmapping" &
 sleep 5
