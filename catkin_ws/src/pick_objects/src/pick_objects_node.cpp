@@ -13,7 +13,7 @@ move_base_msgs::MoveBaseGoal set_goal(double x, double y, double z, double w)
 	move_base_msgs::MoveBaseGoal goal;
 
 	//frame parameters
-  goal.target_pose.header.frame_id = "map";
+  goal.target_pose.header.frame_id = "base_link";
   goal.target_pose.header.stamp = ros::Time::now();
 
   // Define a position and orientation for the robot to reach
@@ -56,8 +56,8 @@ int main(int argc, char** argv)
     ROS_INFO("Waiting for the move_base action server to come up");
   }
 
-  move_base_msgs::MoveBaseGoal pickup_goal  = set_goal(3.53071165085, 7.02457809448, 0.679776960744, 0.733418900521);
-  move_base_msgs::MoveBaseGoal dropoff_goal = set_goal(-4.454413414, 6.56948661804, 0.703485544441, 0.710709567096);
+  move_base_msgs::MoveBaseGoal pickup_goal  = set_goal(3.529611650, 7.1201573094, 0.6797769607, 0.7334189005);
+  move_base_msgs::MoveBaseGoal dropoff_goal = set_goal(-4.4274034, 6.412486618, 0.6913955444, 0.7008095470);
 
   // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending pickup goal");
